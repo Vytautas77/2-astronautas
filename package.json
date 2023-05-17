@@ -1,0 +1,18 @@
+{
+  "name": "2-astronautas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vytautas Petrikas",
+  "license": "ISC",
+  "devDependencies": {
+    "dead": "^0.0.2",
+    "dead-server": "^1.0.9",
+    "server": "^1.0.38"
+  }
+}
