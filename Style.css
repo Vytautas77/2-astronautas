@@ -1,7 +1,6 @@
 body {margin: 0;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-header, main, footer {background-color: yellow; 
-    display: inline-block;
+header, main, footer {display: inline-block;
     width: 800px; 
     margin-left: calc(50% - 400px);
     margin-bottom: 30px;}
@@ -22,7 +21,7 @@ nav > a{
     margin-right: 10px;
 }
 a:hover{
-    color: blue;
+    /* color: blue;*/
     text-decoration: underline;
 }
 main {}
@@ -36,7 +35,7 @@ h1 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
     color: #222 ;
     font-size: 50px;
     font-weight: normal;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 span {
     font-weight: bold;
@@ -46,15 +45,33 @@ p {
     font-size: 15px;
 }
 div > a{
-    background-color: bisque;
-
+    margin-top: 20px;
+    display: inline-block;
+    background-color:#662c8c;
+    color: #fff;
+    padding: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 1.55em;
+    border: 0.15em solid #662c8c;
 }
-div > a{
-
+div > a:last-child{
+    color:#000;
+    background-color: #fff;
 }
+div > a:hover{
+    text-decoration: none;
+    box-shadow: 2px 5px 8px #000;
+    }
 main > img{
     width: 55%;
     float: right;
-    margin: 0;
+    margin: 0; 
 
 }
