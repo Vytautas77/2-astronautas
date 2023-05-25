@@ -20,6 +20,13 @@ nav > a{
     text-decoration: none;
     margin-right: 10px;
 }
+.line{
+    width: 100px;
+    height: 6px;
+    background-color: #662c8c;
+    border: 1em;
+    border-radius: 0.5em;
+}
 a:hover{
     /* color: blue;*/
     text-decoration: underline;
