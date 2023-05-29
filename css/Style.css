@@ -23,6 +23,7 @@ nav > a{
 .line{
     width: 100px;
     height: 6px;
+    margin-top: 10PX;
     background-color: #662c8c;
     border: 1em;
     border-radius: 0.5em;
